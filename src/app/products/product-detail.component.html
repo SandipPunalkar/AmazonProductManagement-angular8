@@ -1,5 +1,10 @@
-<div class="panel panel-primary" *ngIf="product">
-  <div class="panel-heading">
+<div class="card" *ngIf="product">
+  <div class="card-header">
     {{ pageTitle + ":" + product?.productName }}
+  </div>
+  <div class="card-footer">
+    <button type="button" class="btn btn-default btn-sm" (click)="onBack()">
+      <i class="glyphicon glyphicon-chevron-left"></i> Back
+    </button>
   </div>
 </div>
