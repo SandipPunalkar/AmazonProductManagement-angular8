@@ -3,7 +3,7 @@ import { Component } from "@angular/core";
 
 @Component({
   selector: "pm-root",
-  templateUrl: "./app.component.html",
+  templateUrl: "./app.component.html"
   // template: `
   //   <div>
   //     <nav class="navbar navbar-default">
@@ -18,7 +18,6 @@ import { Component } from "@angular/core";
   //     </nav>
   //   </div>
   // `,
-  providers: [ProductService]
 })
 export class AppComponent {
   pageTitle: string = "Aamzon product Management";
